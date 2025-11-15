@@ -46,7 +46,7 @@ import Timer from './timer'
     <p><span className={`visited`}>{`visited: ${indexListArray.length - 1}/25`}</span></p>
     <p  className="not-visited">not visited: <span>{`${25-(indexListArray.length-1)}`}</span></p>
     <p><span  className="review">{`review: ${props.reviewCount}`}</span></p>
-    <Timer minutes={1} seconds={0} updateModalText={props.updateModalText}/>
+    <Timer minutes={40} seconds={0} updateModalText={props.updateModalText}/>
 </div>
     </div>
 </nav>
